@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5554491BA930D800AF502F /* Keyboard.xib */; settings = {ASSET_TAGS = (); }; };
+		3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5554491BA930D800AF502F /* Keyboard.xib */; };
 		3AAA639A1BA9263900E3822E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63991BA9263900E3822E /* AppDelegate.swift */; };
 		3AAA639C1BA9263900E3822E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA639B1BA9263900E3822E /* ViewController.swift */; };
 		3AAA639F1BA9263900E3822E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA639D1BA9263900E3822E /* Main.storyboard */; };
@@ -42,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		241060751C747350007AB3FD /* sprites */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sprites; path = CustomKeyboard/Assets.xcassets/sprites; sourceTree = "<group>"; };
+		241060761C747350007AB3FD /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = CustomKeyboard/Assets.xcassets/icons; sourceTree = "<group>"; };
 		3A5554491BA930D800AF502F /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
 		3AAA63961BA9263900E3822E /* CustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA63991BA9263900E3822E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,8 @@
 		3AAA638D1BA9263900E3822E = {
 			isa = PBXGroup;
 			children = (
+				241060751C747350007AB3FD /* sprites */,
+				241060761C747350007AB3FD /* icons */,
 				3AAA63981BA9263900E3822E /* CustomKeyboard */,
 				3AAA63B11BA9283500E3822E /* CalKeyboard */,
 				3AAA63971BA9263900E3822E /* Products */,
@@ -159,6 +163,10 @@
 		3AAA638E1BA9263900E3822E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Icons,
+					Sprites,
+				);
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "iOS Decal";
 				TargetAttributes = {
